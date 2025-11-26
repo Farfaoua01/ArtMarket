@@ -1,0 +1,50 @@
+.ordercontainer {
+    padding: 30px;
+    width: 1100px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.ordercontainer .displayorders {
+    margin-top: 30px;
+}
+
+.ordercontent .leftpart {
+    background-color: #f9f8ff;
+    width: 300px;
+    flex-grow: 1;
+}
+
+.title h1 {
+    font-size: 33px;
+}
+
+.dropdown .toggledropdown {
+    background-color: rgb(230, 229, 229);
+    color: rgb(0, 0, 0);
+    border: 1px solid #c1c1c1;
+    font-size: 13px;
+    padding: 4px 18px;
+    margin-left: 14px;
+}
+
+.dropdown .menu {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid #c1c1c1;
+    font-size: 13px;
+    width: 0px;
+}
+
+.ordercontainer .title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.toggledorder {
+    border-radius: 15px;
+    background-color: #edacac;
+    font-size: 13px;
+    border: 1px solid #c1c1c1;
+}

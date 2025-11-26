@@ -1,0 +1,17 @@
+.container {}
+
+.container .leftpartcard img {
+    width: 119px;
+    height: 110px;
+}
+
+.container .rightpartcard {
+    text-align: left;
+    width: 190px;
+    margin-left: 10px;
+}
+
+.container h1 {
+    font-size: 16px;
+    font-family: 'Playfair Display';
+}

@@ -1,0 +1,123 @@
+.productpage {
+    display: flex;
+    margin: 39px 9px;
+}
+
+.productpage .rightpart .buttons .addcartButton {
+    width: 340px;
+    height: 40px;
+    border-radius: 0px;
+    border: 'none';
+}
+
+.productpage .rightpart .buttons .buynowButton {
+    width: 340px;
+    height: 40px;
+    border-radius: 0px;
+    border: 'none';
+    margin: 4px 0px;
+    font-weight: lighter;
+}
+
+.productpage .rightpart .buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.productpage .rightpart {
+    font-size: 19px;
+    margin-left: 30px;
+}
+
+.productpage .rightpart .lightfont {
+    font-size: 17px;
+    font-weight: 'lighter';
+}
+
+.addcartButton:hover {
+    background-color: #da3e48;
+    border: none;
+}
+
+.addcartButton {
+    background-color: #da3e48;
+    border: none;
+    margin: 4px 0px;
+    font-weight: lighter;
+}
+
+.addcartButton:hover {
+    background-color: #f1636d;
+}
+
+.buynowButton {
+    background-color: #2f2e2e;
+    border: none;
+}
+
+.buynowButton:hover {
+    background-color: #555454;
+}
+
+.buynowButton {
+    background-color: #2c2b2b;
+    border: none;
+}
+
+.productpage .materials {}
+
+.productpage .artdetails {
+    margin: 30px 0px;
+}
+
+.productpage .artdetails .artdatailslItem {
+    position: relative;
+    right: 150px;
+}
+
+.productpage .artdetails .materials {
+    margin: 30px 0px;
+    display: flex;
+    border-bottom: 1px solid #d5d5d5;
+    font-size: 17px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.productpage .rightpart {}
+
+.artdetails .shipping {
+    margin: 30px 0px;
+    display: flex;
+    border-bottom: 1px solid #d5d5d5;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.artdetails .size {
+    margin: 30px 0px;
+    display: flex;
+    border-bottom: 1px solid #d5d5d5;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.artdetails .payement {
+    margin: 30px 0px;
+    display: flex;
+    border-bottom: 1px solid #d5d5d5;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.history {
+    margin: 30px 0px;
+    font-size: 19px;
+    cursor: pointer;
+    display: flex;
+}
+
+.custom-icon {
+    font-size: 14px;
+    color: rgb(102, 101, 101);
+}

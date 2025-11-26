@@ -1,0 +1,63 @@
+.topbarcheckout {
+    height: 70px;
+    background-color: rgb(246, 246, 246);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .rightpart {
+    background-color: rgb(231, 230, 230);
+    width: 390px;
+    font-family: Montserrat;
+    padding: 10px 7px;
+    height: 530px;
+    position: static;
+}
+
+.content .leftpart {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 1000px;
+    margin: 0px 25px;
+    display: flex;
+    justify-content: start;
+    padding: 19px;
+    flex-direction: column;
+}
+
+.content .leftpart .logindiv {
+    background-color: #f2f0f0;
+    width: 100%;
+    height: 59px;
+    margin-top: -19px;
+    padding: 19px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.content .leftpart .logindiv p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    margin: 50px 14px;
+}
+
+.rightpart .title {
+    border-bottom: 1px solid #787777;
+    padding: 6px 10px;
+}
+
+.leftpart .userinfopart {}
+
+.custom-input {
+    box-shadow: none !important;
+    border: 1px solid #67696d;
+    border-radius: 0px;
+    height: 40px;
+}

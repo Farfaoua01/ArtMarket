@@ -1,0 +1,75 @@
+.personalspace .leftpart {
+    width: 190px;
+    margin-left: 10px;
+}
+
+.personalspace .rightpart {
+    width: 700px;
+    height: 500px;
+    margin-left: 14px;
+    border: 1px solid black;
+}
+
+.personalspace .leftpart .userpicture {
+    width: 190px;
+    height: 190px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.personalspace {}
+
+.leftpart .userselections {
+    width: 190px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: left;
+    padding: 0px;
+    background-color: #464646;
+    color: rgb(213, 212, 212);
+}
+
+.userselections ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.userselections li {
+    cursor: pointer;
+    padding: 10px 16px;
+    text-align: left;
+}
+
+.userselections li:hover {
+    background-color: rgb(236, 238, 238);
+}
+
+.account .updatebutton {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    width: 130px;
+    border-radius: 0px;
+    margin-left: -69px;
+}
+
+.account {
+    padding: 19px 19px;
+}
+
+.account .accountsbutton .discartbutton {
+    background-color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    width: 130px;
+    border-radius: 0px;
+    margin: 5px 0px;
+}
+
+.account .accountsbutton {
+    margin-top: 49px;
+}

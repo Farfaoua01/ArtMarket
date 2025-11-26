@@ -1,0 +1,114 @@
+.title h1 {
+    font-size: 25px;
+}
+
+.artworkcontainer .title {
+    display: flex;
+    margin-left: -880px;
+    margin-top: 25px;
+}
+
+.artworkcontainer {
+    padding-left: 70px;
+    height: 100%;
+}
+
+.form .searchcontrol {
+    margin-left: 10px;
+    height: 31px;
+    font-size: 13px;
+}
+
+.form .addbutton {
+    background-color: #e77a31;
+}
+
+.addartwork .flextitle {
+    display: flex;
+    margin-left: -1070px;
+    margin-top: 30px;
+}
+
+.addartwork .rowflextitle {
+    display: flex;
+    flex-direction: column;
+    padding-left: 19px;
+}
+
+.addartwork .rowflextitle h1 {
+    font-size: 19px;
+    margin-top: -11px;
+    padding: 0px;
+}
+
+.addartwork .rowflextitle p {
+    font-size: 14px;
+}
+
+.artworklist .leftpartaddwork h1 {
+    font-size: 17px;
+}
+
+.artworklist .rightpartaddwork h1 {
+    font-size: 17px;
+}
+
+.artworklist .rightpartaddwork .description {
+    border: 1px solid #c9c9c9;
+    width: 460px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.artworklist .leftpartaddwork .description {
+    border: 1px solid #c9c9c9;
+    width: 460px;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.artworklist {
+    display: flex;
+    margin-top: 40px;
+    justify-content: left;
+}
+
+.artworklist .leftpartaddwork {}
+
+.artworklist .rightpartaddwork {
+    margin-left: 19px;
+}
+
+.artworklist .buttonspart {
+    display: flex;
+    margin-top: 20px;
+}
+
+.discartbutton {
+    position: relative;
+    left: -100px;
+}
+
+.artworklist .buttonspart .submitbutton {
+    position: relative;
+    left: -30px;
+}
+
+.displayarworks {
+    margin-top: 19px;
+}
+
+.formbackground {
+    background-color: #ffffff;
+    width: 1100px;
+    padding: 1px 19px;
+    margin-top: 19px;
+}
+
+.custom-input {
+    box-shadow: none !important;
+    border: 1px solid #67696d;
+    border-radius: 0px;
+    height: 40px;
+}

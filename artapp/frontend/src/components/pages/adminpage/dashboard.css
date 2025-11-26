@@ -1,0 +1,28 @@
+.ocard {
+    width: 240px;
+    height: 130px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 18px;
+    margin: 10px 6px;
+}
+
+.cardleftpart h1 {
+    font-size: 18px;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+.cardleftpart p {
+    font-size: 14px;
+    font-family: montserrat;
+    position: relative;
+    top: 10px;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: left;
+}

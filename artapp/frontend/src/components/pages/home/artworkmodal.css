@@ -1,0 +1,26 @@
+.modalbody .leftpart {
+    background-color: aqua;
+    height: 100px;
+}
+
+.modalbody .rightpart {
+    margin-left: 59px;
+}
+
+.custom-modal {
+    max-width: 70%;
+    max-height: 60%;
+}
+
+.rightpart .sizedropdown {
+    width: 190px;
+}
+
+.rightpart .div {
+    margin: 10px;
+}
+
+.rightpart .div p {
+    position: relative;
+    top: 10px;
+}
